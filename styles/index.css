@@ -150,6 +150,7 @@
     justify-content: center;
     flex-direction: column;
     background-color: var(--gray-500);
+    padding-bottom: 144px;
 }
 
 .projects-texts{
@@ -222,5 +223,31 @@
     line-height: var(--text-sm-line-height);
 }
 
+.services{
+    background-color: var(--gray-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 88px;
+}
 
+.services-title-p{
+    color: var(--red);
+    font-family: var(--font-subtitle);
+    font-size: var(--subtitle-size);
+    font-weight: var(--subtitle-weight);
+    line-height: var(--subtitle-line-height);
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.services-title-h2{
+    color: var(--gray-100);
+    font-family: var(--title-md-size);
+    font-size: var(--title-md-size);
+    font-weight: var(--title-md-weight);
+    line-height: var(--title-md-height);
+    margin-bottom: 56px;
+}
 
